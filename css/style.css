@@ -116,7 +116,7 @@ figure {
   width: 300px;
   position: fixed;
   z-index: 1001;
-    background-color: #f9bf3f;
+    background-color: #81efab;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -522,11 +522,14 @@ font-family: "Montserrat", Georgia, serif;}
 
 .hire {
   padding: 2em;
-  background: #f9bf3f; }
+  background: #000; }
   .hire h2 {
-    line-height: 1.5; }
+    line-height: 1.5;
+    color: #fff; }
+  .hire p {
+    color: #fff;}
   .hire .btn-hire {
-    color: #000;
+    color: #f1a0f1;
     text-transform: uppercase;
     letter-spacing: 1px;
     bordeR: 1px solid #000;
@@ -666,7 +669,7 @@ font-family: "Montserrat", Georgia, serif;}
   position: absolute;
   display: block;
   width: 4px;
-  background: #f9bf3f;
+  background: #ccd2ce;
   top: 20px;
   bottom: 20px;
   margin-left: 29px; }
@@ -715,7 +718,7 @@ font-family: "Montserrat", Georgia, serif;}
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
   position: relative;
-  background: #f9bf3f;
+  background: #81efab;
   padding: 1.5em;
   margin-left: 60px;
   -webkit-background-clip: padding-box;
